@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/I1"
+        android:titleCondensed="I1"
+        android:title="Single Sofa"/>
+    <item android:id="@+id/I2"
+        android:titleCondensed="I2"
+        android:title="Table"/>
+    <item android:id="@+id/I3"
+        android:titleCondensed="I3"
+        android:title="Sofa"/>
+    <item android:id="@+id/I4"
+        android:titleCondensed="I4"
+        android:title="Chair"/>
+</menu>

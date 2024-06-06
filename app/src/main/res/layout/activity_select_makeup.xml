@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectMakeupActivity"
+    android:background="#F2F0E0">
+
+
+    <Switch
+        android:id="@+id/switchLipstick"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="180dp"
+        android:text="Lipstick"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchHairColor"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Hair Color"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchLipstick" />
+
+    <Switch
+        android:id="@+id/switchEyebrows"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Eyebrows"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchHairColor" />
+
+    <Switch
+        android:id="@+id/switchIris"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Iris Color"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchEyebrows" />
+
+    <Button
+        android:id="@+id/proceedbtn"
+        android:layout_width="144dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="100dp"
+        android:text="Proceed"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Choose Your Makeup Style"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Back"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

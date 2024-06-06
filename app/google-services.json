@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "816180928725",
+    "project_id": "arniture-9c5b9",
+    "storage_bucket": "arniture-9c5b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816180928725:android:623923613c921f39cf425c",
+        "android_client_info": {
+          "package_name": "com.example.app_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFwKlQphj1qravTcbXIvuk1GEQ0SdJTDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816180928725:android:1e2a8280f2a02a7ecf425c",
+        "android_client_info": {
+          "package_name": "com.example.app_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFwKlQphj1qravTcbXIvuk1GEQ0SdJTDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
